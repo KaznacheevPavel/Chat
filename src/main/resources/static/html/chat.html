@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Чат</title>
+    <script src="/js/chat.js"></script>
+    <script src="/assets/sockjs.js"></script>
+    <script src="/assets/stomp.js"></script>
+    <link rel="stylesheet" href="/css/chat.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="messages-container">
+            <div class="inner-messages-container">
+
+            </div>
+        </div>
+        <form class="send-form">
+            <textarea class="text-input" name="message" maxlength="256" placeholder="Введите сообщение..."></textarea>
+            <input class="submit-button" type="submit" value="Отправить сообщение">
+            <input class="file_input" type="file">
+            <span class="search-text">Поиск</span>
+            <input class="date_input" type="date" value="">
+        </form>
+    </div>
+</body>
+</html>
